@@ -1,0 +1,19 @@
+Source: libdisplaycore-core-screendump
+Section: libraries
+Priority: extra
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: libdisplaycore-core-screendump
+Section: libraries
+Architecture: all
+XBSC-Group: DisplayCore
+XBSC-Subgroup: Core
+Depends: libdisplaycore-core, libsd-chipkit
+Provides: ScreenDump.h
+Description: ScreenDump library
+ Dump the screen content (on displays that support reading) to a file on an SD card
+
+
+
