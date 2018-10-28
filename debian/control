@@ -12,7 +12,7 @@ XBSC-Group: DisplayCore
 XBSC-Subgroup: Core
 Depends: libdisplaycore-core, libsd-chipkit
 Provides: ScreenDump.h
-Description: ScreenDump library
+Description: ScreenDump
  Dump the screen content (on displays that support reading) to a file on an SD card
 
 
