@@ -1,2 +1,3 @@
-ScreenDump.cpp libraries/DisplayCore/ScreenDump
-ScreenDump.h libraries/DisplayCore/ScreenDump
+library.json libraries/DisplayCore/ScreenDump
+library.properties libraries/DisplayCore/ScreenDump
+src libraries/DisplayCore/ScreenDump
