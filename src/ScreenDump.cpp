@@ -41,7 +41,7 @@ struct BitmapInfoHeader {
 } __attribute__((packed));
 
 
-void ScreenDump::dump565(DisplayCore &dev, SDClass &sd, const char *filename) {
+void ScreenDump::dump565(Cariad &dev, SDClass &sd, const char *filename) {
     File f = sd.open(filename, O_WRITE | O_CREAT);
     for (int y = 0; y < dev.getHeight(); y++) {
         for (int x = 0; x < dev.getWidth(); x++) {
@@ -54,7 +54,7 @@ void ScreenDump::dump565(DisplayCore &dev, SDClass &sd, const char *filename) {
     f.close();
 }
 
-void ScreenDump::dumpBMP(DisplayCore &dev, SDClass &sd, const char *filename) {
+void ScreenDump::dumpBMP(Cariad &dev, SDClass &sd, const char *filename) {
     struct BitmapFileHeader header;
     struct BitmapInfoHeader info;
 
